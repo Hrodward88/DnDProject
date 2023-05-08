@@ -26,19 +26,36 @@ Al hacerlo, comprobamos que todas salvo Games contienen referencias a otros elem
 
 Para ello, se define una función concreta. Dado que la URL dirige a un json con varios diccionarios, definimos que queremos uno de los elementos del dicionario data, en concreto "name".
 
+<img width="502" alt="Screenshot 2023-05-08 at 20 46 12" src="https://user-images.githubusercontent.com/129097999/236912766-417a8dcb-1a5f-4069-8f47-7384c2abee91.png">
+
+
 Usando esta función, creamos una columna nueva con lo que obtenemos de la función en cada una de las tablas, creadno una columna igual en todas las tablas.
+
+<img width="564" alt="Screenshot 2023-05-08 at 20 46 28" src="https://user-images.githubusercontent.com/129097999/236912855-7ec10bc5-58d8-42cf-8d65-fabb3e5444af.png">
+
 
 A continuación, dado que vamos a usar "Games" como tabla central, se le pueden añadir nuevoas columnas con elementos obtenidos de otras webs.
 
 Usando BeautifulSoup, y tras definir una pagina de wikipedia nueva como variable, se extraen los elementos de tipo "wikitable", concatenamos los diferentes elementos y creamos una nueva tabla. Dado que solo nos interesa una columna, nos centramos en ella, cambiando algunos de los elementos de la string.
 
+<img width="1296" alt="Screenshot 2023-05-08 at 20 47 09" src="https://user-images.githubusercontent.com/129097999/236912974-254b8819-683f-4de2-8c89-d8869383a44d.png">
+
+
 A continuación, fusionamos la nueva tabla con Games, y eliminamos las columnas que no nos interesan. Ya tenemos una columna nueva.
 
 Para añadir otra tabla, con los valores de Metacritic de cada juego, encontramos una web que tenga esa lista y de una manera que podamos extraer. Sin embargo, esta ruta nos muestra que hay problemas, por lo que es más fácil encontrar una web más fácil.
 
+<img width="1602" alt="Screenshot 2023-05-08 at 21 18 44" src="https://user-images.githubusercontent.com/129097999/236913190-2f748349-dc87-40fb-8cb0-8f1dc58fc73e.png">
+
 Extraemos la lista de la web, esta vez mas facilmente, y a continuacion separamos cada elemento en titulo y Metascore, creando un nuevo dataframe.
 
+<img width="592" alt="Screenshot 2023-05-08 at 21 19 45" src="https://user-images.githubusercontent.com/129097999/236914039-b6b8d7fa-cb6a-46ed-a879-cf007606a936.png">
+
+<img width="641" alt="Screenshot 2023-05-08 at 21 20 23" src="https://user-images.githubusercontent.com/129097999/236914110-3833c6d5-2a70-4d40-9a41-607422287b22.png">
+
 Vemos que hubo problemas a la hora de mergear, por lo que corregimos todos los nombres y nos aseguramos de que coinciden an ambas tablas. Tras eso, soltamos la columna extra.
+
+<img width="1599" alt="Screenshot 2023-05-08 at 21 22 16" src="https://user-images.githubusercontent.com/129097999/236914176-f6007130-327d-45ff-ab79-ca19ae1486de.png">
 
 En este momento es cuando empezamos a rellenar elementos vacíos o erróneos en cada una de las tablas, cambiamos títulos, y limpiamos los datos.
 

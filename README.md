@@ -2,7 +2,7 @@
 
 # Lab | Web Scraping with Selenium
 
-![nosotros chorizeando datos](https://conceptodefinicion.de/wp-content/uploads/2017/10/Data_Mining.jpg)
+![titulazo](https://store.nintendo.co.uk/_next/image?url=https%3A%2F%2Fassets.nintendo.eu%2Fimage%2Fupload%2Fc_scale%2Cw_767%2Ff_auto%2Fq_auto%2Fv1617717643%2FMNS%2FContent%2520Pages%2520Assets%2FCategory-List%2520Pages%2FFranchises%2FThe%2520Legend%2520of%2520Zelda%2F16.9_Hub_TheLegendofZelda_Logo_NOE.jpg&w=3840&q=75)
 
 ## Introduction
 Now that you already figured out how to scrape data from the web using `Beautiful Soup`, it's time to scrape it with `Selenium`.

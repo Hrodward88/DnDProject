@@ -8,10 +8,10 @@
 What happens when you let a man loose on the internet to find data to scrap in order to create a simple database? Well this is one of the possible answers.
 
 
+## Empezando. 
 
+![zelda-master-sword-powerup-8](https://user-images.githubusercontent.com/129097999/236912169-1324d150-bbeb-448c-b306-d3ad576a3eff.jpg)
 
-
-## Empezando. https://i0.wp.com/powerup-gaming.com/wp-content/uploads/2017/03/zelda-master-sword-powerup-8.jpg?resize=768%2C432&ssl=1
 Tras diversos intentos de conseguir datos y APIS de diversas fuentes, acabé decidiendo usar un volumen de datos pequeño y manejable, pero que cuadraba con lo requerido.
 
 https://docs.zelda.fanapis.com es una coleccion de datos pertinentes a la saga de juegos de "The Legend of Zelda". Desde el punto de vista de lo que quiere hacer, dista mucho de ser ideal, pero como he dicho, es suficiente para este proyecto.
@@ -50,8 +50,8 @@ A continuacion en SQL creamos un esquema representando la tabla principal "Games
 
 Git add, git commit (Con momento de "ha desaparecido todo" de por medio), y push.
 
+![tumblr_ooext2Rny41u1ry24o1_500](https://user-images.githubusercontent.com/129097999/236912254-5b73c6e9-f995-438d-bfa5-6f92952efd56.gif)
 
-[https://i.makeagif.com/media/5-04-2021/Vz0StB.mp4](https://64.media.tumblr.com/107312e3c8811402f805f6d5973ed0d5/tumblr_ooext2Rny41u1ry24o1_500.gif)
 
 Ya tenemos nuestra base de datos.
 

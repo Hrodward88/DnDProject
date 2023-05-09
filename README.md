@@ -24,6 +24,8 @@ Habiendo descargado todas las librerías apropiadas, incluyendo requests, se cre
 
 Al hacerlo, comprobamos que todas salvo Games contienen referencias a otros elementos en forma de URL, por lo que debemos extraer la información.
 
+<img width="1076" alt="Screenshot 2023-05-09 at 07 49 02" src="https://user-images.githubusercontent.com/129097999/237005567-ca7ec508-ce3d-4d64-b9f8-f831acfb7453.png">
+
 Para ello, se define una función concreta. Dado que la URL dirige a un json con varios diccionarios, definimos que queremos uno de los elementos del dicionario data, en concreto "name".
 
 <img width="502" alt="Screenshot 2023-05-08 at 20 46 12" src="https://user-images.githubusercontent.com/129097999/236912766-417a8dcb-1a5f-4069-8f47-7384c2abee91.png">
